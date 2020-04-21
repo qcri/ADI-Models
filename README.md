@@ -14,7 +14,7 @@ python src/extract_framelevel_embeddings.py --wavlist <wavlist_with_full_path>
 ```
 
 Output:
-A pickled dictonary: where key == wav_id and value == numpy.ndarray
+A dictonary: where key == wav_id and value == numpy.ndarray
 
 Example:
 ```
