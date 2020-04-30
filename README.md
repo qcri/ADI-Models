@@ -14,7 +14,7 @@ python src/extract_framelevel_embeddings.py --wavlist <wavlist_with_full_path>
 ```
 
 Output:
-A pickled dictonary: where key == wav_id and value == numpy.ndarray
+A dictonary: where key == wav_id and value == numpy.ndarray
 
 Example:
 ```
@@ -29,6 +29,8 @@ Inside mgb2_tst_tmp.lst
 ```
 key: B8DBA457-2FE6-4A30-B67C-2543E6FAFDAC_spk-0001_seg-0007309___0008131
 value : ndarray, shape : (nframes, 600) 
+
+
 ##TODO
 ADD all models (ADI-5 and ADI-17) to get likelihood for dialects
 
