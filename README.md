@@ -12,6 +12,10 @@ To run:
 ```
 python src/extract_framelevel_embeddings.py --wavlist <wavlist_with_full_path>
 ```
+For reduced emb size (100 dim) use: #Not tested for best performance
+```
+python src/extract_framelevel_embeddings_reduced.py --wavlist <wavlist_with_full_path>
+```
 
 Output:
 A dictonary: where key == wav_id and value == numpy.ndarray
